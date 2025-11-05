@@ -1,4 +1,5 @@
 import Image from "next/image";
+import FeatureCard from "@/components/FeatureCard";
 
 export default function Home() {
   return (
@@ -13,7 +14,12 @@ export default function Home() {
             data points to ensure that your project is successful
           </p>
         </div>
-        <div></div>
+        <div>
+          <FeatureCard />
+          <FeatureCard />
+          <FeatureCard />
+          <FeatureCard />
+        </div>
       </main>
     </>
   );
