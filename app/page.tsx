@@ -15,10 +15,10 @@ export default function Home() {
           </p>
         </div>
         <div>
-          <FeatureCard />
-          <FeatureCard />
-          <FeatureCard />
-          <FeatureCard />
+          <FeatureCard type="supervisor" />
+          <FeatureCard type="team-builder" />
+          <FeatureCard type="karma" />
+          <FeatureCard type="calculator" />
         </div>
       </main>
     </>
