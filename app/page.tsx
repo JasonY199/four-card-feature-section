@@ -3,7 +3,7 @@ import FeatureCard from "@/components/FeatureCard";
 export default function Home() {
   return (
     <>
-      <main className="flex flex-col gap-15 py-14 px-7">
+      <main className="flex flex-col gap-15 py-14 md:py-20 lg:py-25 px-7">
         <div className="flex flex-col gap-4 items-center max-w-[316px] md:max-w-[540px] mx-auto">
           <h1 className="flex flex-col text-center">
             <span className="text-preset-2">Reliable, efficient delivery</span>{" "}
