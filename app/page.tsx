@@ -14,7 +14,7 @@ export default function Home() {
             data points to ensure that your project is successful
           </p>
         </div>
-        <div>
+        <div className="flex flex-col gap-8">
           <FeatureCard type="supervisor" />
           <FeatureCard type="team-builder" />
           <FeatureCard type="karma" />

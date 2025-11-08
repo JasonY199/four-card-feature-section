@@ -9,6 +9,8 @@
   --color-grey-500: hsl(234, 12%, 34%);
   --color-grey-400: hsl(212, 6%, 44%);
   --color-white: hsl(0, 0%, 100%);
+
+  --shadow-card: 0 15px 30px -11px rgba(131, 166, 210, 0.5);
 }
 
 @layer utilities {
@@ -59,7 +61,7 @@
 }
 
 body {
-  background: var(--color-white);
+  background: #fafafa;
   color: var(--color-grey-500);
   font-family: var(--font-poppins), sans-serif;
 }
