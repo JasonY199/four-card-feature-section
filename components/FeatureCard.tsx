@@ -1,10 +1,18 @@
 import { featuresData } from "@/data/features-data";
 import Image from "next/image";
 
-export default function FeatureCard({ type }: { type: string }) {
+export default function FeatureCard({
+  type,
+  className,
+}: {
+  type: string;
+  className?: string;
+}) {
   return (
     <div
-      className={`flex flex-col gap-8 p-8 bg-white rounded-lg border-t-4 ${featuresData[type].color} shadow-card`}
+      className={`flex flex-col gap-8 p-8 bg-white rounded-lg border-t-4 ${
+        featuresData[type].color
+      } shadow-card max-w-[314px] ${className ?? ""}`}
     >
       <div className="flex flex-col gap-1.5">
         <h2 className="text-preset-3">{featuresData[type].title}</h2>
