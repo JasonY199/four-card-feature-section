@@ -10,9 +10,9 @@ export default function FeatureCard({
 }) {
   return (
     <div
-      className={`flex flex-col gap-8 p-8 bg-white rounded-lg border-t-4 ${
+      className={`flex flex-col gap-8 p-8 bg-white rounded-lg border-t-4 shadow-card max-w-[314px] lg:max-w-[350px] ${
         featuresData[type].color
-      } shadow-card max-w-[314px] ${className ?? ""}`}
+      } ${className ?? ""}`}
     >
       <div className="flex flex-col gap-1.5">
         <h2 className="text-preset-3">{featuresData[type].title}</h2>
